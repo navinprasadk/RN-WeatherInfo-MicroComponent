@@ -5,12 +5,13 @@
 
 // Open Weather Map API endpoint
 // http://api.openweathermap.org/data/2.5/weather?lat=32&lon=74&appid=b6907d289e10d714a6e88b30761fae22
-
+// import { OPEN_WEATHER_API_KEY } from '../config/keys';
 const OPEN_WEATHER_API_KEY = '91aef6be37b3b1e6a9f283fa771c3dbb';
 const rootUrl = 'http://api.openweathermap.org/data/2.5/weather';
 
 const fetchWeather = (latitude, longitude) => {
   const fetchWeatherURL = `${rootUrl}?lat=${latitude}&lon=${longitude}&appid=${OPEN_WEATHER_API_KEY}&units=metric`;
+
   return fetch(fetchWeatherURL)
     .then(res => res.json())
     .then(json => ({
