@@ -1,0 +1,5 @@
+// const OPEN_WEATHER_API_KEY = '91aef6be37b3b1e6a9f283fa771c3dbb';
+// const WUNDERGROUND_API_KEY = '7081d4dd4920fc1c';
+// https://api.darksky.net/forecast/de1d328984680ec7e2ecc1e02be284f2/12.9716,77.5946?exclude=hourly,daily,flags
+// http://samples.openweathermap.org/data/2.5/weather?lat=32&lon=74&appid=91aef6be37b3b1e6a9f283fa771c3dbb
+// http://samples.openweathermap.org/data/2.5/weather?lat=12&lan=77&appid=91aef6be37b3b1e6a9f283fa771c3dbb
