@@ -8,7 +8,10 @@ This micro component will retrieve the weather report (**Temperature in Celsius*
 
 * To fetch the user's location, I have used [geolocation API](https://facebook.github.io/react-native/docs/geolocation.html) in React-Native
 
-* To fetch Weather reports, I have used [Open Weather API](http://openweathermap.org/api)
+* To fetch Weather reports, I have used [Open Weather Map API](http://openweathermap.org/api)
+
+### Open Weather Map API
+To use this API, you must register with them and get the API key. And then put your **API_KEY** in *app/config/key.js*
 
 #### Code
 Main source resides in **app** folder of the root directory
