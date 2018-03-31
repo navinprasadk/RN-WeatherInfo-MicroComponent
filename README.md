@@ -10,7 +10,7 @@ This micro component will retrieve the weather report (**Temperature in Celsius*
 
 * To fetch Weather reports, I have used [Open Weather Map API](http://openweathermap.org/api)
 
-### Open Weather Map API
+#### Open Weather Map API
 To use this API, you must register with them and get the API key. And then put your **API_KEY** in *app/config/key.js*
 
 #### Code
