@@ -1,12 +1,13 @@
 // Based on Latitude & Longitude coordinates, it will return the temperature and weather summary
 
 // Open Weather Map API usage Limits
-// Calls per minute (no more than)	60
+// Calls per minute (no more than)60
 
 // Open Weather Map API endpoint
 // http://api.openweathermap.org/data/2.5/weather?lat=32&lon=74&appid=b6907d289e10d714a6e88b30761fae22
-// import { OPEN_WEATHER_API_KEY } from '../config/keys';
-const OPEN_WEATHER_API_KEY = '91aef6be37b3b1e6a9f283fa771c3dbb';
+
+import OPEN_WEATHER_API_KEY from '../config/key';
+
 const rootUrl = 'http://api.openweathermap.org/data/2.5/weather';
 
 const fetchWeather = (latitude, longitude) => {
@@ -24,4 +25,5 @@ const fetchWeather = (latitude, longitude) => {
       throw err;
     });
 };
+
 export default fetchWeather;

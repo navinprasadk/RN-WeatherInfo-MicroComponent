@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
-import { StatusBar, Text } from 'react-native';
-// import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import { Container } from '../components/Container';
+import { DisplayNumber, DisplayText } from '../components/Text';
 import fetchWeather from '../api/weather';
 
 class Home extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      hideStatusBar: false,
       temperature: 0,
       weather: 'clear',
       city: '',
@@ -38,14 +36,11 @@ class Home extends Component {
   }
 
   render() {
-    console.log(this.state);
     return (
       <Container>
-        <StatusBar hidden={this.state.hideStatusBar} translucent={false} barStyle="default" />
-        <Text>Weather Report</Text>
-        <Text>{this.state.temperature}</Text>
-        <Text>{this.state.weather} </Text>
-        <Text>{this.state.city} </Text>
+        <DisplayText text={this.state.city} icon />
+        <DisplayNumber text={this.state.temperature} icon />
+        <DisplayText text={this.state.weather} />
       </Container>
     );
   }
