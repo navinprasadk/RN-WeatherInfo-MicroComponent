@@ -4,7 +4,7 @@ This micro component will retrieve the weather report (**Temperature in Celsius*
 
 
 ### Docs
-* It's based on [React-native] (https://facebook.github.io/react-native/)
+* It's based on [React-native](https://facebook.github.io/react-native/)
 
 * To fetch the user's location, I have used [geolocation API](https://facebook.github.io/react-native/docs/geolocation.html) in React-Native
 
