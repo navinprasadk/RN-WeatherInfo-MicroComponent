@@ -20,6 +20,6 @@ Main source resides in **app** folder of the root directory
 To request access to location, you need to add the following line to your app's AndroidManifest.xml (android/app/src/main/AndroidManifest.xml):
 ```<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />```
 
-#### Constraints:
+#### Constraints
 * Kindly check the [Open Weather API](http://openweathermap.org/price) documentation for API usage limits
 * If you denied the permission for location accessing, it won't work. So kindly enable it 
