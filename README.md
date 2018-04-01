@@ -3,7 +3,7 @@
 This micro component will automatically get the uer's location and return the weather details like **Temperature** , **Weather summary** and its corresponding **Location**
 
 
-![Weather Info Mobile App Screenshot](https://github.com/navinprasadk/RN-WeatherInfo-MicroComponent/blob/master/screenshot/weatherInfo.png)
+![Weather Info Mobile App Screenshot](https://github.com/navinprasadk/RN-WeatherInfo-MicroComponent/blob/master/screenshot/weatherinfo.png)
 
 
 ### Response
