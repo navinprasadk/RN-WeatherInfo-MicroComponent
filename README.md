@@ -1,6 +1,14 @@
 # RN-WeatherInfo-MicroComponent
 
-This micro component will retrieve the weather report (**Temperature in Celsius** and **Weather summary**) and its corresponding **area**
+This micro component will automatically get the uer's location and return the weather details like **Temperature** and **Weather summary** and its corresponding **area**
+
+
+### Response
+- [x] Temperature in Celsius
+
+- [x] Weather Summary
+
+- [x] Location
 
 
 ### Docs
