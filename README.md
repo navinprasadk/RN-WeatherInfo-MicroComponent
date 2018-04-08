@@ -17,7 +17,7 @@ This micro component will automatically get the user's location and return the w
 ### Docs
 * It's based on [React-native](https://facebook.github.io/react-native/)
 
-* To fetch the user's location, I have used React Native's Built-in [Geolocation API](https://facebook.github.io/react-native/docs/geolocation.html) in React-Native
+* To fetch the user's location, I have used React Native's Built-in [Geolocation API](https://facebook.github.io/react-native/docs/geolocation.html)
 
 * To fetch Weather reports, I have used [Open Weather Map API](http://openweathermap.org/api)
 
